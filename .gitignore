@@ -2,3 +2,12 @@ venv/
 vene/
 .DS_Store
 __pycache__/
+
+# Ignore all environment files and virtual environments in all subfolders
+**/.env
+.env
+**/venv/
+venv/
+**/__pycache__/
+**/storage/
+.DS_Store
